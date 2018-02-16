@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="et_downline">#bfbfbf</color>
+    <color name="starColor">#d81e06</color>
+    <color name="btn_down">#bfbfbf</color>
+
+    <color name="Orange">#e0620d</color>
+
+    <color name="ColorDarkPrimaryColor">#0288D1</color>
+    <color name="ColorPrimaryColor">#03A9F4</color>
+    <color name="ColorLightPrimaryColor">#B3E5FC</color>
+    <color name="ColorText_Icons">#FFFFFF</color>
+    <color name="ColorAccentColor">#448AFF</color>
+    <color name="ColorPrimaryText">#212121</color>
+    <color name="ColorSecondaryText">#757575</color>
+    <color name="ColorDividerColor">#BDBDBD</color>
+    <color name="ColorHeadColor">#e61D89E5</color>
+</resources>

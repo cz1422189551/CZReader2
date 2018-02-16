@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/ColorText_Icons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="150dp">
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btn_local_nobook_fragment"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:background="@drawable/add"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/btn_down"
+            android:text="添加本地图书"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/ColorDividerColor">
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/ll_local_hasbook_fragment"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_hasbook_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            </android.support.v7.widget.RecyclerView>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_local_nobook_fragment"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="95dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/book"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/btn_down"
+                android:text="你的书架空荡荡"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
